@@ -1,0 +1,56 @@
+main
+    .what,
+    .easy,
+    .account,
+    .premium
+        width: 100%
+        padding: 48px 0
+        +flexbox
+        +justify-content(center)
+        .container
+            width: 1170px
+            +flexbox
+            
+            .esquerda
+                width: 50%
+                
+            .direita    
+                width: 50%
+                
+                
+    .what
+        .container
+            .esquerda
+                .container
+                    width: 77%
+                    height: auto                    
+                    +flexbox
+                    +flex-wrap(wrap)
+                    h2
+                        +font-size(42px)
+                        font-weight: 800
+                        width: 100%
+                        line-height: 1.5
+                        margin: 0 0 50px
+                        color: #222326
+                        
+                    .musicas,
+                    .playlists,
+                    .lancamentos
+                        h3
+                            +font-size(24px)
+                            color: #222326
+                            font-weight: 800;
+                        p    
+                            padding: 25px 0;
+                            line-height: 1.5
+                            color: #222326
+                            font-weight: 700;
+                            
+            .direita
+                +flexbox
+                +flex-wrap(wrap)
+                +align-items(center)
+                +justify-content(center)
+                img
+                    width: 49%

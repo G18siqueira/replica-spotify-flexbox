@@ -44,7 +44,7 @@
         <section class="what">
             <div class="container">
                 <div class="esquerda">
-                    <div class="container">
+                    <div class="containerInterno">
                         <h2>O que o Spotify tem?</h2>
                         <div class="musicas">
                             <h3>Músicas</h3>
@@ -72,18 +72,20 @@
             <div class="container">
                 <div class="esquerda"></div>
                 <div class="direita">
-                    <h2>Fácil</h2>
-                    <div class="musicas">
-                        <h3>Buscar</h3>
-                        <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
-                    </div>
-                    <div class="playlists">
-                        <h3>Navegar</h3>
-                        <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
-                    </div>
-                    <div class="lancamentos">
-                        <h3>Descobrir</h3>
-                        <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
+                    <div class="containerInterno">
+                        <h2>Fácil</h2>
+                        <div class="musicas">
+                            <h3>Buscar</h3>
+                            <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
+                        </div>
+                        <div class="playlists">
+                            <h3>Navegar</h3>
+                            <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+                        </div>
+                        <div class="lancamentos">
+                            <h3>Descobrir</h3>
+                            <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,20 +93,22 @@
         <section class="account">
             <div class="container">
                 <div class="esquerda">
-                    <h2>Uma conta. Música em qualquer lugar.</h2>
-                    <ul class="grupoUm">
-                        <li>Celular</li>
-                        <li>Computador</li>
-                        <li>Tablet</li>
-                        <li>Carro</li>
-                    </ul>
-                    
-                    <ul class="grupoDois">
-                        <li>Alto-Falante</li>
-                        <li>Playstation</li>
-                        <li>Tv</li>
-                        <li>Player da Web</li>
-                    </ul>
+                   <div class="containerInterno">
+                        <h2>Uma conta. Música em qualquer lugar.</h2>
+                        <ul class="grupoUm">
+                            <li>Celular</li>
+                            <li>Computador</li>
+                            <li>Tablet</li>
+                            <li class="noseparator">Carro</li>
+                        </ul>
+
+                        <ul class="grupoDois">
+                            <li>Alto-Falante</li>
+                            <li class="verde">Playstation<span>®</span></li>
+                            <li>Tv</li>
+                            <li class="noseparator verde">Player da Web</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="direita">
                     <img src="assets/img/all-devicesAB.svg" alt="">
@@ -115,12 +119,14 @@
             <div class="container">
                 <h2>A música ao alcance dos seus dedos.</h2>
                 <div class="esquerdaQ">
-                    <h3>Spotify Free</h3>
-                    <p><span>R$ 0,00</span>/mês</p>
+                    <div class="caixa">
+                        <h3>Spotify Free</h3>
+                        <p><span>R$ 0,00</span>/mês</p>
+                    </div>
                     
                     <div class="borda">
                         <ul>
-                            <li>Ordem aleatória</li>
+                            <li class="preto">Ordem aleatória</li>
                             <li>Sem propaganda</li>
                             <li>Pule as músicas sem limitações</li>
                             <li>Ouça offline</li>
@@ -132,10 +138,13 @@
                     <a href="#" class="verde">Obter Free</a>      
                 </div>
                 <div class="direitaQ">
-                    <h3>Spotify Premium</h3>
-                    <p><span>R$ 16,90</span>/mês</p>
-                    <span class="micro">Comece seu período de teste de 30 dias grátis*</span>
-                    <span class="micro">Ofertas disponíveis <a href="">para a família</a> e <a href="">para universitários</a> </span>
+                    <div class="caixa">
+                        <h3>Spotify Premium</h3>
+                        <p><span>R$ 16,90</span>/mês</p>
+
+                        <span class="micro">Comece seu período de teste de 30 dias grátis*</span>
+                        <span class="micro">Ofertas disponíveis <a href="">para a família</a> e <a href="">para universitários</a> </span>                    
+                    </div>
                     
                     <div class="borda">
                         <ul>
@@ -148,11 +157,10 @@
                         </ul>
                     </div>  
                     
-                    <a href="#" class="verde">Obter Free</a>     
+                    <a href="#" class="verde">Obter Premium</a>     
                 </div>
-            </div>
-            
-            <span class="micro">Os Termos e condições da Oferta do teste grátis de 30 dias do Spotify® se aplicam. Os usuários que assinaram o serviço Premium ou Unlimited ou que obtiveram um teste grátis não têm direito a esta oferta.</span>
+                <span class="micro">Os <a href="#">Termos e condições</a> da Oferta do teste grátis de 30 dias do Spotify® se aplicam. Os usuários que assinaram o serviço Premium ou Unlimited ou que obtiveram um teste grátis não têm direito a esta oferta.</span>
+            </div>            
         </section>
     </main>
     

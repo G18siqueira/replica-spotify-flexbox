@@ -1,15 +1,30 @@
 footer
     background-color: #000
+    width: 100%
+    height: 480px
+    +flexbox
+    +justify-content(center)
+    
     .container
-        .logo
-        .empresa
-        .comunidades
-        .uteis
-        .sociais
+        width: 1170px
+        +flexbox
+        +justify-content(center)
+        +flex-wrap(wrap)    
+        .logo,
+        .empresa,
+        .comunidades,
+        .uteis,
+        .sociais,
+            +flexbox
+            +flex-direction(column)
+            width: 20%
+            height: auto
             h4
             a    
             
-    .brasil
-        a
-    
-    .copyright        
+        .brasil
+            width: 100%
+            a
+
+        .copyright    
+            width: 100%
